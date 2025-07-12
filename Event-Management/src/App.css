@@ -1,0 +1,145 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f2f5f7;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.container {
+  max-width: 200px;
+  margin: 30px auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+  justify-items: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 25px;
+}
+
+input{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+button {
+  display: block;
+  width: 15%;
+  padding: 7px;
+  margin-bottom: 16px;
+  font-size: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+
+select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #3b768c;
+  color: white;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #3e8e88;
+}
+
+.logout-btn {
+  background-color: #e53935 !important;
+  margin-bottom: 25px;
+  margin-left: auto;
+  
+}
+
+
+.logout-btn:hover {
+  background-color: #c62828 !important;
+}
+
+.search-input {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #bbb;
+  border-radius: 8px;
+  font-size: 16px;
+  justify-content: center;
+  text-align: center;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.event-card {
+  background-color: #fafafa;
+  padding: 16px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  transition: box-shadow 0.2s ease;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.event-card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.event-card h3 {
+  margin: 0 0 5px 0;
+}
+
+.event-info {
+  font-size: 15px;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.event-status {
+  font-weight: bold;
+  text-transform: capitalize;
+  padding: 4px 10px;
+  border-radius: 6px;
+  display: inline-block;
+  font-size: 14px;
+}
+
+.completed {
+  background-color: #d4edda;
+  color: #2e7d32;
+}
+
+.upcoming,
+.pending {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.progress {
+  background-color: #cfe2ff;
+  color: #0d6efd;
+}
+
+
